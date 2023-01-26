@@ -1,0 +1,36 @@
+.footer {
+  position: absolute;
+  bottom: -20%;
+  // background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5rem;
+
+  color: #a9a9a9;
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  @media only screen and (max-width: $bp-largest) {
+    & {
+      bottom: -10%;
+    }
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    & {
+      bottom: -5%;
+    }
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    & {
+      bottom: -20%;
+    }
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    & {
+      bottom: 10%;
+    }
+  }
+}
